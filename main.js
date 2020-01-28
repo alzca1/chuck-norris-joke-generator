@@ -4,7 +4,7 @@ $(function(){
 
 
     function getJSONData(){
-        var jokesApi = ' http://api.icndb.com/jokes/random';
+        var jokesApi = 'https://api.icndb.com/jokes/random';
 
         $.getJSON(jokesApi, function (item){
             var joke = item.value.joke;
