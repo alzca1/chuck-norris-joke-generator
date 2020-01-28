@@ -31,6 +31,10 @@ ul {
   list-style: none;
 }
 
+body{
+  margin: 0 auto; 
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -109,8 +113,16 @@ button:click{
 
 img{
     align-self: center; 
-    width: 350px;
+    width: 400px;
     position: absolute;
     z-index: -1;
     opacity: 0.35;
 }
+
+@media only screen and (max-width: 800px){
+  img{
+    width: 440px;  
+  }
+}
+
+
